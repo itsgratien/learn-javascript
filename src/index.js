@@ -54,3 +54,5 @@ async function handleGetCountries() {
   } catch (error) {}
 }
 fetchBtn.addEventListener("click", handleGetCountries);
+
+handleGetCountries();
